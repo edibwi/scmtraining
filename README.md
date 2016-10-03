@@ -1,1 +1,1 @@
-This is the first Readme
+This is SCM Training Repository
