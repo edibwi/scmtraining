@@ -38,7 +38,6 @@ if($row['postID'] == ''){
 
 						$stmt2 = $db->prepare('SELECT catTitle, catSlug	FROM blog_cats, blog_post_cats WHERE blog_cats.catID = blog_post_cats.catID AND blog_post_cats.postID = :postID');
 						$stmt2->execute(array(':postID' => $row['postID']));
-
 						$catRow = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 						$links = array();
 						foreach ($catRow as $cat)
