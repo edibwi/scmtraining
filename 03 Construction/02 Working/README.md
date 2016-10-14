@@ -1,4 +1,4 @@
-Simple Blog part 4: Categories
+Creating a blog from scratch with PHP - Part 6 Pagination
 =============
 
-These files acompany the tutorial: [Creating a blog from scratch with PHP - Part 4 Categories](http://daveismyname.com/creating-a-blog-from-scratch-with-php-part-4-categories-bp)
+These files acompany the tutorial: [Creating a blog from scratch with PHP - Part 6 Pagination](http://daveismyname.com/creating-a-blog-from-scratch-with-php-part-6-pagination-bp)
