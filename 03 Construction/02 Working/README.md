@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Simple Blog part 2: SEO urls
 =============
 
@@ -9,3 +10,9 @@ Simple Blog part 4: Categories
 
 These files acompany the tutorial: [Creating a blog from scratch with PHP - Part 4 Categories](http://daveismyname.com/creating-a-blog-from-scratch-with-php-part-4-categories-bp)
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
+=======
+Creating a blog from scratch with PHP - Part 6 Pagination
+=============
+
+These files acompany the tutorial: [Creating a blog from scratch with PHP - Part 6 Pagination](http://daveismyname.com/creating-a-blog-from-scratch-with-php-part-6-pagination-bp)
+>>>>>>> ef649f1485e1fc13ac1a5aa268eeb529c2c23dc1
