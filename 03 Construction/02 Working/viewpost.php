@@ -1,7 +1,9 @@
 <?php require('includes/config.php'); 
 
-$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate FROM blog_posts WHERE postID = :postID');
-$stmt->execute(array(':postID' => $_GET['id']));
+
+
+$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate FROM blog_posts_seo WHERE postSlug = :postSlug');
+$stmt->execute(array(':postSlug' => $_GET['id']));
 $row = $stmt->fetch();
 
 //if post does not exists redirect user.
@@ -37,6 +39,7 @@ if($row['postID'] == ''){
 		?>
 
 	</div>
+
 
 </body>
 </html>
