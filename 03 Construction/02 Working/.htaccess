@@ -1,6 +1,7 @@
 RewriteEngine On
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RewriteBase /simple-blog-part-2-seo-urls/
 =======
 RewriteBase /simple-blog-part-4-categories/
@@ -13,6 +14,12 @@ RewriteBase /simple-blog-part-5-sidebar-categories-and-archives/
 RewriteRule ^c-(.*)$ catpost.php?id=$1 [L]
 RewriteRule ^a-(.*)-(.*)$ archives.php?month=$1&year=$2 [L]
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+RewriteBase /
+
+RewriteRule ^c-(.*)$ catpost.php?id=$1 [L]
+RewriteRule ^a-(.*)-(.*)$ archives.php?month=$1&year=$2 [L]
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 
 RewriteCond %{REQUEST_FILENAME} !-d [NC]
 RewriteCond %{REQUEST_FILENAME} !-f [NC]

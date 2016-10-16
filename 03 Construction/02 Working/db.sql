@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ************************************************************
 # Sequel Pro SQL dump
 # Version 4499
@@ -24,6 +25,8 @@
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
 =======
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 # Dump of table blog_cats
 # ------------------------------------------------------------
 
@@ -38,13 +41,17 @@ CREATE TABLE `blog_cats` (
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 LOCK TABLES `blog_cats` WRITE;
 /*!40000 ALTER TABLE `blog_cats` DISABLE KEYS */;
 
 INSERT INTO `blog_cats` (`catID`, `catTitle`, `catSlug`)
 VALUES
+<<<<<<< HEAD
 <<<<<<< HEAD
 	(53,'cats','cats');
 
@@ -60,6 +67,8 @@ VALUES
   (4,'Testing','testing');
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
 =======
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 	(1,'General','general'),
 	(2,'Development','development'),
 	(5,'Misc','misc'),
@@ -67,7 +76,10 @@ VALUES
 
 /*!40000 ALTER TABLE `blog_cats` ENABLE KEYS */;
 UNLOCK TABLES;
+<<<<<<< HEAD
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 
 
 # Dump of table blog_members
@@ -87,6 +99,7 @@ INSERT INTO `blog_members` (`memberID`, `username`, `password`, `email`)
 VALUES
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	(1,'Demo','$2a$12$TF8u1maUr5kADc42g1FB0ONJDEtt24ue.UTIuP13gij5AHsg5f5s2','demo@demo.com');
 =======
   (1,'Demo','$2a$12$TF8u1maUr5kADc42g1FB0ONJDEtt24ue.UTIuP13gij5AHsg5f5s2','demo@demo.com');
@@ -95,6 +108,9 @@ VALUES
 # Dump of table blog_post_cats
 # ------------------------------------------------------------
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
+=======
+	(1,'Demo','$2a$12$TF8u1maUr5kADc42g1FB0ONJDEtt24ue.UTIuP13gij5AHsg5f5s2','demo@demo.com');
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 
 DROP TABLE IF EXISTS `blog_post_cats`;
 
@@ -105,6 +121,7 @@ CREATE TABLE `blog_post_cats` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Dump of table blog_post_cats
 # ------------------------------------------------------------
@@ -151,6 +168,8 @@ VALUES
 # Dump of table blog_posts_seo
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
 =======
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 # Dump of table blog_post_cats
 # ------------------------------------------------------------
 
@@ -180,6 +199,7 @@ UNLOCK TABLES;
 
 
 # Dump of table blog_posts_seo
+<<<<<<< HEAD
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
 # ------------------------------------------------------------
 
@@ -209,6 +229,8 @@ UNLOCK TABLES;
 
 
 # Dump of table blog_posts_seo
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `blog_posts_seo`;
@@ -233,6 +255,7 @@ VALUES
 	(3,'How Hermes Requisitioned His Groove Back','how-hermes-requistioned-his-groove-back','<p>You\'re going back for the Countess, aren\'t you? Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. Now Fry, it\'s been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? I don\'t want to be rescued. Leela, are you alright? You got wanged on the head.</p>','<h2>The Luck of the Fryrish</h2>\r\n<p>Professor, make a woman out of me. I am the man with no name, Zapp Brannigan! Good man. Nixon\'s pro-war and pro-family. The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Fry, you can\'t just sit here in the dark listening to classical music.</p>\r\n<ul>\r\n<li>Who are those horrible orange men?</li>\r\n<li>Is today\'s hectic lifestyle making you tense and impatient?</li>\r\n</ul>\r\n<h3>Lethal Inspection</h3>\r\n<p>Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat. No. We\'re on the top. Does anybody else feel jealous and aroused and worried? Well I\'da done better, but it\'s plum hard pleading a case while awaiting trial for that there incompetence. It must be wonderful.</p>\r\n<h4>Where No Fan Has Gone Before</h4>\r\n<p>Who are those horrible orange men? Bender, we\'re trying our best. Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Look, last night was a mistake.</p>\r\n<ol>\r\n<li>I\'m sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in.</li>\r\n<li>Stop it, stop it. It\'s fine. I will \'destroy\' you!</li>\r\n<li>You guys realize you live in a sewer, right?</li>\r\n</ol>\r\n<h5>Fear of a Bot Planet</h5>\r\n<p>Why yes! Thanks for noticing. Hey, guess what you\'re accessories to. Yes, except the Dave Matthews Band doesn\'t rock. Take me to your leader! Daddy Bender, we\'re hungry.</p>','2013-06-05 23:20:24'),
 	(6,'The Cyber House Rules','the-cyber-house-rules','<p>You guys realize you live in a sewer, right? Uh, is the puppy mechanical in any way? Come, Comrade Bender! We must take to the streets! I daresay that Fry has discovered the smelliest object in the known universe! Good news, everyone! There\'s a report on TV with some very bad news!</p>','<h2>The Luck of the Fryrish</h2>\r\n<p>Professor, make a woman out of me. I am the man with no name, Zapp Brannigan! Good man. Nixon\'s pro-war and pro-family. The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Fry, you can\'t just sit here in the dark listening to classical music.</p>\r\n<ul>\r\n<li>Who are those horrible orange men?</li>\r\n<li>Is today\'s hectic lifestyle making you tense and impatient?</li>\r\n</ul>\r\n<h3>Lethal Inspection</h3>\r\n<p>Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat. No. We\'re on the top. Does anybody else feel jealous and aroused and worried? Well I\'da done better, but it\'s plum hard pleading a case while awaiting trial for that there incompetence. It must be wonderful.</p>\r\n<h4>Where No Fan Has Gone Before</h4>\r\n<p>Who are those horrible orange men? Bender, we\'re trying our best. Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Look, last night was a mistake.</p>\r\n<ol>\r\n<li>I\'m sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in.</li>\r\n<li>Stop it, stop it. It\'s fine. I will \'destroy\' you!</li>\r\n<li>You guys realize you live in a sewer, right?</li>\r\n</ol>\r\n<h5>Fear of a Bot Planet</h5>\r\n<p>Why yes! Thanks for noticing. Hey, guess what you\'re accessories to. Yes, except the Dave Matthews Band doesn\'t rock. Take me to your leader! Daddy Bender, we\'re hungry.</p>','2013-06-06 08:28:35');
 
+<<<<<<< HEAD
 /*!40000 ALTER TABLE `blog_posts_seo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -261,3 +284,5 @@ VALUES
 	(3,'How Hermes Requisitioned His Groove Back','how-hermes-requistioned-his-groove-back','<p>You\'re going back for the Countess, aren\'t you? Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. Now Fry, it\'s been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? I don\'t want to be rescued. Leela, are you alright? You got wanged on the head.</p>','<h2>The Luck of the Fryrish</h2>\r\n<p>Professor, make a woman out of me. I am the man with no name, Zapp Brannigan! Good man. Nixon\'s pro-war and pro-family. The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Fry, you can\'t just sit here in the dark listening to classical music.</p>\r\n<ul>\r\n<li>Who are those horrible orange men?</li>\r\n<li>Is today\'s hectic lifestyle making you tense and impatient?</li>\r\n</ul>\r\n<h3>Lethal Inspection</h3>\r\n<p>Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat. No. We\'re on the top. Does anybody else feel jealous and aroused and worried? Well I\'da done better, but it\'s plum hard pleading a case while awaiting trial for that there incompetence. It must be wonderful.</p>\r\n<h4>Where No Fan Has Gone Before</h4>\r\n<p>Who are those horrible orange men? Bender, we\'re trying our best. Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Look, last night was a mistake.</p>\r\n<ol>\r\n<li>I\'m sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in.</li>\r\n<li>Stop it, stop it. It\'s fine. I will \'destroy\' you!</li>\r\n<li>You guys realize you live in a sewer, right?</li>\r\n</ol>\r\n<h5>Fear of a Bot Planet</h5>\r\n<p>Why yes! Thanks for noticing. Hey, guess what you\'re accessories to. Yes, except the Dave Matthews Band doesn\'t rock. Take me to your leader! Daddy Bender, we\'re hungry.</p>','2013-06-05 23:20:24'),
 	(6,'The Cyber House Rules','the-cyber-house-rules','<p>You guys realize you live in a sewer, right? Uh, is the puppy mechanical in any way? Come, Comrade Bender! We must take to the streets! I daresay that Fry has discovered the smelliest object in the known universe! Good news, everyone! There\'s a report on TV with some very bad news!</p>','<h2>The Luck of the Fryrish</h2>\r\n<p>Professor, make a woman out of me. I am the man with no name, Zapp Brannigan! Good man. Nixon\'s pro-war and pro-family. The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Fry, you can\'t just sit here in the dark listening to classical music.</p>\r\n<ul>\r\n<li>Who are those horrible orange men?</li>\r\n<li>Is today\'s hectic lifestyle making you tense and impatient?</li>\r\n</ul>\r\n<h3>Lethal Inspection</h3>\r\n<p>Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat. No. We\'re on the top. Does anybody else feel jealous and aroused and worried? Well I\'da done better, but it\'s plum hard pleading a case while awaiting trial for that there incompetence. It must be wonderful.</p>\r\n<h4>Where No Fan Has Gone Before</h4>\r\n<p>Who are those horrible orange men? Bender, we\'re trying our best. Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! Wow! A superpowers drug you can just rub onto your skin? You\'d think it would be something you\'d have to freebase. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Look, last night was a mistake.</p>\r\n<ol>\r\n<li>I\'m sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in.</li>\r\n<li>Stop it, stop it. It\'s fine. I will \'destroy\' you!</li>\r\n<li>You guys realize you live in a sewer, right?</li>\r\n</ol>\r\n<h5>Fear of a Bot Planet</h5>\r\n<p>Why yes! Thanks for noticing. Hey, guess what you\'re accessories to. Yes, except the Dave Matthews Band doesn\'t rock. Take me to your leader! Daddy Bender, we\'re hungry.</p>','2013-06-06 08:28:35');
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f

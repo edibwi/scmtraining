@@ -34,6 +34,7 @@
 							echo '<p>Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).' in ';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 				$stmt = $db->query('SELECT postID, postTitle, postSlug, postDesc, postDate FROM blog_posts_seo ORDER BY postID DESC');
 				while($row = $stmt->fetch()){
 					
@@ -65,6 +66,10 @@
 								$stmt2 = $db->prepare('SELECT catTitle, catSlug	FROM blog_cats, blog_post_cats WHERE blog_cats.catID = blog_post_cats.catID AND blog_post_cats.postID = :postID');
 								$stmt2->execute(array(':postID' => $row['postID']));
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+								$stmt2 = $db->prepare('SELECT catTitle, catSlug	FROM blog_cats, blog_post_cats WHERE blog_cats.catID = blog_post_cats.catID AND blog_post_cats.postID = :postID');
+								$stmt2->execute(array(':postID' => $row['postID']));
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 
 								$catRow = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 

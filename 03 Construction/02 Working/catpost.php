@@ -30,6 +30,7 @@ if($row['catID'] == ''){
 		<p><a href="./">Blog Index</a></p>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<?php	
 		try {
 
@@ -77,6 +78,8 @@ if($row['catID'] == ''){
 
 		?>
 =======
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 		<div id='main'>
 
 			<?php	
@@ -143,7 +146,10 @@ if($row['catID'] == ''){
 		</div>
 
 		<div id='clear'></div>
+<<<<<<< HEAD
 >>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
+=======
+>>>>>>> 56186f5487596b2d8f582950fa49872b48e1f40f
 
 	</div>
 

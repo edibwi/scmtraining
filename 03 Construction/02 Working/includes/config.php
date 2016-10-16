@@ -4,11 +4,11 @@ session_start();
 
 //database credentials
 define('DBHOST','localhost');
-define('DBUSER','username');
-define('DBPASS','password');
-define('DBNAME','database name');
+define('DBUSER','u137484833_scm');
+define('DBPASS','scmpassword');
+define('DBNAME','u137484833_scm');
 
-$db = new PDO("mysql:host=".DBHOST.";port=8889;dbname=".DBNAME, DBUSER, DBPASS);
+$db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
@@ -32,11 +32,6 @@ function __autoload($class) {
       require_once $classpath;
    }
    
-   //if call from within admin adjust the path
-   $classpath = '../../classes/class.'.$class . '.php';
-   if ( file_exists($classpath)) {
-      require_once $classpath;
-   }     
     
 }
 
