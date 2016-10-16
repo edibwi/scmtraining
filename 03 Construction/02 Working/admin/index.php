@@ -10,12 +10,18 @@ if(isset($_GET['delpost'])){
 
 	$stmt = $db->prepare('DELETE FROM blog_posts_seo WHERE postID = :postID') ;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
 	$stmt->execute(array(':postID' => $_GET['delpost']));
 
 	//delete post categories. 
 	$stmt = $db->prepare('DELETE FROM blog_post_cats WHERE postID = :postID');
+<<<<<<< HEAD
 >>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
+=======
+>>>>>>> 7ee7c7eba5f948eb5718f5c51c6c15f0304f5b11
 	$stmt->execute(array(':postID' => $_GET['delpost']));
 
 	header('Location: index.php?action=deleted');
