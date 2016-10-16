@@ -9,6 +9,13 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 if(isset($_GET['delpost'])){ 
 
 	$stmt = $db->prepare('DELETE FROM blog_posts_seo WHERE postID = :postID') ;
+<<<<<<< HEAD
+=======
+	$stmt->execute(array(':postID' => $_GET['delpost']));
+
+	//delete post categories. 
+	$stmt = $db->prepare('DELETE FROM blog_post_cats WHERE postID = :postID');
+>>>>>>> f42cace33f01abcc4a8e57b2a780ff64040e8c26
 	$stmt->execute(array(':postID' => $_GET['delpost']));
 
 	header('Location: index.php?action=deleted');
